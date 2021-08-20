@@ -1,0 +1,9 @@
+name0 = input("Enter a name ")
+name1 = input("\nEnter another name ")
+favorite_color = input("\nEnter your favorite color ")
+favorite_number = input("\nEnter your favorite number ")
+
+print('\n\nThere once was a man named ' + name0 + ',')
+print('he was ' + favorite_number + ' years old.')
+print("He liked the name " + name1 + ',')
+print("but he didn't like the color " + favorite_color + ' ')
