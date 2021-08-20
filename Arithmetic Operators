@@ -1,0 +1,13 @@
+adding = 10 + 3
+subtracting = 10 - 3
+multiplying = 10 * 3
+division_decimal = 10 / 3
+division_remainder = 10 % 3
+division = 10 // 3
+"""Increments"""
+adding += 3
+subtracting -= 3
+multiplying *= 3
+division_decimal /= 3
+division_remainder %= 3
+division //= 3
