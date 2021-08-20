@@ -1,0 +1,13 @@
+weight = input("Enter (L)bs or (K)g")
+weight = weight.upper()
+if weight == 'L':
+    weight = float(input("Enter your weight "))
+    weight *= 0.45
+    print(f'\n {weight} is your weight in kilograms ')
+elif weight == 'K':
+    weight = float(input("Enter your weight. "))
+    weight /= 0.45
+    print(f'\n {weight} is your weight pounds ')
+else:
+    print("Your input is invalid, try using the letter L or K")
+    
