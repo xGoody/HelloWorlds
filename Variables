@@ -1,0 +1,5 @@
+python0: str = "Python's"
+python1: str = 'Pythons'
+python2: int = 1
+python3: float = 1.0
+python4: bool = True
