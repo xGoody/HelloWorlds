@@ -1,0 +1,13 @@
+name = input("Enter your name. ")
+length = len(name)
+if length < 3:
+    print("\nYour name must be at least 3 characters. ")
+elif length > 50:
+    print("\nYour name must me less than 51 characters. ")
+elif not length >= 12:
+    print("\nYou have a normal name. ")
+    if length == 7:
+        print("You have a nice name! ")
+else:
+    print("\nYou have a long name. ")
+    
