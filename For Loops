@@ -1,5 +1,5 @@
 prices = [10, 30, 400]
 total = 0
-for prices in prices:
-    total = prices + total
+for price in prices:
+    total = price + total
 print(total)
