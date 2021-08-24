@@ -1,3 +1,13 @@
 numbers = [5, 2, 5, 2, 2]
 for i in numbers:
     print('X' * i)
+
+# Below Does not work and I dont know why.
+"""
+x = [5, 2, 5, 2, 2]
+y = [1, 1, 1, 1, 1]
+for x_pixel in x:
+    print('X' * x_pixel, end='')
+for y_pixel in y:
+    print('\n' * y_pixel)
+"""
