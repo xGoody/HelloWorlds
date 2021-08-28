@@ -1,6 +1,5 @@
 def greet_user(name):
-    print('Welcome, ', end='')
-    print(name)
+    print(f'Welcome, {name}!')
 
 
 print('Start')
