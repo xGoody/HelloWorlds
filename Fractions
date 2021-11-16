@@ -1,0 +1,3 @@
+from fractions import *
+a = 120 + Fraction(5, 1)
+print(a)
